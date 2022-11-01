@@ -1,4 +1,4 @@
-Action Recognition
+# Action Recognition
 The repository builds a quick and simple code for video classification (or action recognition) using our own dataset with TensorFlow,TensorFlow Lite and Keras. A video is viewed as a 3D image or several continuous 2D images . Below are two simple neural nets models:
 #LRCN
 Internally LRCN temporal slice for 3D images scenerio and LSTM use several 3D kernels of size (a,b,c) and channels n, e.g., (a, b, c, n) = (3, 3, 3, 16) to convolve with video input, where videos are viewed as 3D images. dropout are also used.
